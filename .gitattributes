@@ -1,1 +1,1 @@
-sanitymediumclone/ export-ignore
+*.js linguist-detectable=false
