@@ -46,7 +46,7 @@ export default function Home({ posts }: Props) {
           <Link key={post._id} href={`/post/${post.slug.current}`}>
             <div className="group cursor-pointer overflow-hidden rounded-lg border">
               <img
-                className="h-60 w-full object-cover transition-transform duration-200 ease-in-out group-hover:scale-x-105"
+                className="h-60 w-full object-cover transition-transform duration-200 ease-in-out group-hover:scale-105"
                 src={urlFor(post.mainImage).url()!}
                 alt={`blog-post`}
               />
